@@ -52,14 +52,14 @@ public class ProcesarCalificaciones {
         return caliAlta;
     }
     
-    
+            
     public void imprimirCalificaciones(int calificaciones[][]){
         System.out.printf("Las calificaciones son: %n%n");//%n%n dos saltos de linea formateado
-        System.out.print("            ");
+        System.out.print("                  ");
         
         
         for(int nota = 0; nota < calificaciones[0].length; nota++){
-            System.out.printf("Estudiante %2d", nota + 1);
+            System.out.printf(" Nota%2d",nota + 1);
         }
         System.out.println("Promedio");
         
